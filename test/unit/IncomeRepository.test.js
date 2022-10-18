@@ -13,6 +13,6 @@ describe('IncomeRepository Suite Tests', () => {
     const expected = mocks.convertResponse.results;
     const result = await repository.getConversions();
 
-    expect(result).to.be.equal(expected);
+    expect(result).to.be.deep.equal(expected);
   });
 });

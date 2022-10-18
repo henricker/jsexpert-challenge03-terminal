@@ -23,7 +23,7 @@
     "start": "node --experimental-json-modules --experimental-top-level-await src/index.js",
     "server": "npx json-server --watch src/server.json --port 3000",
     "dev": "nodemon --exec npm start",
-    "test": "npx mocha -w --parallel test/**/*.test.js"
+    "test": "npx mocha -w --parallel test/**/*.test.js --verbose"
   },
   "dependencies": {
     "axios": "^0.24.0",
